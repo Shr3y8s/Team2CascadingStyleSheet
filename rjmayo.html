@@ -5,9 +5,10 @@
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
       body {
-        background-image: url("Images/rjbackground.jpg") ;
+        background-image: url("Images/RJ/rjbackground.jpg") ;
         background-repeat: repeat;
         font-family: 'Roboto Mono', monospace;
+        background-size: contain;
       }
 
       body > h1 {
@@ -26,9 +27,14 @@
         border-radius: 15px;
       }
 
+      .definition:hover, .culture:hover, .racing:hover {
+        opacity: 100%;
+      }
+
       .definition {
         background: #2dc937;
         width: 75%;
+        opacity: 80%;
         padding: 10px;
         margin: 20px;
       }
@@ -36,6 +42,7 @@
       .culture {
         background: #e7b416;
         width: 75%;
+        opacity: 80%;
         padding: 10px;
         margin: 20px;
       }
@@ -43,17 +50,22 @@
       .racing {
         background: #cc3232;
         width: 75%;
+        opacity: 80%;
         padding: 10px;
         margin: 20px;
       }
 
+      .table {
+        background: white;
+        width: 1000px;
+        height: 200px;
+      }
+
       .RJ {
-        display: flex;
-        flex-direction: column;
+        margin: 20px;
       }
 
        .RJ > h2 {
-        margin: 20px;
         padding: 20px;
         background: black;
         color: white;
@@ -63,12 +75,39 @@
 
       .RJ > p {
         font-size: larger;
-        margin: 20px;
         background: white;
         padding: 5px;
         border-radius: 10px;
-        width:fit-content;
+        width: fit-content;
+      }
+
+      .Why {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      #reason {
+        font-weight: bold;
+        font-style: italic;
+      }
+
+      .s2k {
+        background: whitesmoke;
+        text-align: center;
+        width: 500px;
+      }
+
+      #flex {
+        display: flex;
+        flex-direction: row;
         justify-content: center;
+      }
+
+      #image {
+        width: 495px;
+        height: 495px;
+        object-fit: cover;
       }
     </style>
   </head>
@@ -237,32 +276,37 @@
         </table>
         <hr>
       </div>
+      <hr>
       <div class="Why">
         <h2>Why did I choose these cars?</h2>
-        <p>
+        <p id="reason">
           These cars were all created for a specific purpose in mind, some for efficiency or practicality,
           and some for performance only. In my opinion, they were all created with an eye for craftsmanship.
-          The performance cars in this table, such as the S2000 or Evolution
+          The performance cars in this table, such as the S2000 or Evolution both have high potential
+          engines that can make nearly triple the power they come from the factory with.
         </p>
       </div>
     </div>
-    <div class="s2k">
-      <h2>RJ's Personal Shitbox Car</h2>
-      <h3>
-        <a href="https://en.wikipedia.org/wiki/Honda_S2000"><em>Honda S2000</em></a>
-      </h3>
-        <h3>Specifications & Modifications:</h3>
-        <p>2003 AP1, 92,250 Miles</p>
-        <p>F20C1, 237bhp, 9000 RPMS</p>
-        <p>6-Speed Synchronized Manual</p>
-        <p>Megan Racing Coilovers</p>
-        <p>Seibon CF Hood</p>
-        <p>Sorcery Front Bumper</p>
-        <p>Mag Blue Desmond Regamasters</p>
-        <p>Falken RT660s 255/40/17</p>
-        <p>Berlina Black, NH-547</p>
-        <hr>
-      <img src="Images/s2k.jpg" alt="RJ's S2000" title="Shitbox">
+    <hr>
+    <div id="flex">
+      <div class="s2k">
+        <h2>RJ's Personal Shitbox Car</h2>
+        <h3>
+          <a href="https://en.wikipedia.org/wiki/Honda_S2000"><em>Honda S2000</em></a>
+        </h3>
+          <h3>Specifications & Modifications:</h3>
+          <p>2003 AP1, 92,250 Miles</p>
+          <p>F20C1, 237bhp, 9000 RPMS</p>
+          <p>6-Speed Synchronized Manual</p>
+          <p>Megan Racing Coilovers</p>
+          <p>Seibon CF Hood</p>
+          <p>Sorcery Front Bumper</p>
+          <p>Mag Blue Desmond Regamasters</p>
+          <p>Falken RT660s 255/40/17</p>
+          <p>Berlina Black, NH-547</p>
+          <hr>
+      </div>
+      <img id= "image" src="Images/RJ/s2k.jpg" alt="RJ's S2000" title="Shitbox">
     </div>
   </body>
 </html>
