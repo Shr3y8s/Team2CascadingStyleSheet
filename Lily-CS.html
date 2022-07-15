@@ -7,6 +7,7 @@
 
                 body {
                     background-color: rgb(255, 209, 124);
+                    font-size:100%;
                 }
 
                 h4 {
@@ -17,6 +18,7 @@
                     color:rgba(114, 4, 103, 0.709);
                     text-align: center;
                     font-family: 'Times New Roman';
+                    font-size: 230%;
                 }
 
                 p.sharedHeader {
@@ -24,19 +26,15 @@
                 }
 
                 #myHeader {
-                background-color: rgb(242, 101, 13);
-                padding: 40px;
+                    background-color: rgb(242, 101, 13);
+                    padding: 40px;
 
-                img.edit {
-                    margin: auto;
                 }
-
-}
 
                 table, th, td {
                     border:2px solid black;
                     text-align: center;
-                    width: 90%;
+                    width: 50%;
                     height: 70px;
                     border-collapse: collapse;
                 }
@@ -45,16 +43,20 @@
                  margin-left: auto;
                  margin-right: auto;
                 }
+
+                a:hover {
+                    color:rgb(254, 0, 0);
+                }
             </style>
         </head>
 <body>
 
  <!-- Image information -->
-    <img class="edit" src="Images/frontend.jpg" alt="Front end" width="600" height="350" title="Front and Back End Computer Science" > <!--Mark's comment 7/9: I'm not marking this down since it's CSS, but if you wanted the center class to make the image centered then in the style block in your head section, you should replace img with .center. Right now ALL images will be centered, not just the ones with the center class.-->
+    <img src="Images/frontend.jpg" alt="Front end" width="600" height="350" title="Front and Back End Computer Science" > <!--Mark's comment 7/9: I'm not marking this down since it's CSS, but if you wanted the center class to make the image centered then in the style block in your head section, you should replace img with .center. Right now ALL images will be centered, not just the ones with the center class.-->
 
     <h1 style="text-align:center;"> Computer Science.</h1>
         <p>I will give you short information about career options</p>
-    <h2 id = "myHeader" style="font-size: 180%;">Front End Development.</h2>
+    <h2 id = "myHeader">Front End Development.</h2>
         <p>
             A front end developer is in charge of creating a efficient graphical user interface.
             <br>
@@ -87,7 +89,7 @@
                      </li>
                  </ul>
 <hr>
-    <h2 id="myHeader" style="font-size:180%;"> Back End Development.</h2>
+    <h2 id="myHeader"> Back End Development.</h2>
         <p>
             A back end developer are the experts that build and maintain the mechanisms that process data.
             <br>
