@@ -13,28 +13,42 @@
                 }
 
                 h2 {
-                    color:rgba(114, 4, 103, 0.566);
-                    justify-content: center;
+                    color:rgba(114, 4, 103, 0.709);
+                    text-align: center;
+                    font-family: 'Times New Roman';
                 }
+
+                p.sharedHeader {
+                    color:blue
+                }
+
+                #myHeader {
+                background-color: rgb(242, 101, 13);
+                padding: 40px;
+
+}
 
                 .center {
                     display: block;
                     margin-left: auto;
                     margin-right: auto;
                 }
-        table, th, td {
-          border:1px solid black;
-        }
+
+                table, th, td {
+                    border:2px solid black;
+                    text-align: center;
+                    width: 90%;
+                }
             </style>
         </head>
 <body>
 
  <!-- Image information -->
-    <img src="Images/frontend.jpg" alt="Front end" width="400" height="250" title="Front and Back End Computer Science" class="center" > <!--Mark's comment 7/9: I'm not marking this down since it's CSS, but if you wanted the center class to make the image centered then in the style block in your head section, you should replace img with .center. Right now ALL images will be centered, not just the ones with the center class.-->
+    <img src="Images/frontend.jpg" alt="Front end" width="600" height="350" title="Front and Back End Computer Science" class="center" > <!--Mark's comment 7/9: I'm not marking this down since it's CSS, but if you wanted the center class to make the image centered then in the style block in your head section, you should replace img with .center. Right now ALL images will be centered, not just the ones with the center class.-->
 
     <h1 style="text-align:center;"> Computer Science.</h1>
         <p>I will give you short information about career options</p>
-    <h2 style="background-color: rgb(242, 101, 13); font-size: 180%;">Front End Development.</h2>
+    <h2 id = "myHeader" style="font-size: 180%;">Front End Development.</h2>
         <p>
             A front end developer is in charge of creating a efficient graphical user interface.
             <br>
@@ -42,8 +56,8 @@
             well, a front end Dev is in charge of coding that design.
         </p>
 
-        <p>
-            <strong style="font-size:140%;"> <span style="color:rgb(49, 43, 226);"><em>Basic skills needed</em></span> </strong><!--Mark's comment 7/9: Use strong and em instead of b and i. HTML is used to specify categories of text and not what the text should look like. Leave it to the browser to determine that strong should be bold and em should be italicized.-->
+        <p class="sharedHeader">
+            <strong style="font-size:140%;"><em>Basic skills needed</em></span> </strong>
         </p>
 
 <!-- Bulleted point list -->
@@ -67,14 +81,14 @@
                      </li>
                  </ul>
 <hr>
-    <h2 style="background-color:rgb(242, 101, 13); font-size:180%;"> Back End Development.</h2>
+    <h2 id="myHeader" style="font-size:180%;"> Back End Development.</h2>
         <p>
             A back end developer are the experts that build and maintain the mechanisms that process data.
             <br>
             They are involved in data storage, security, and other server-side functions.
         </p>
-        <p>
-            <b style="font-size:140%;"> <span style="color:rgb(49, 43, 226)"><i>Basic skills needed</i></span> </b>
+        <p class = "sharedHeader">
+            <b style="font-size:140%;"> <span><i>Basic skills needed</i></span> </b>
         </p>
 
 <!-- Bulleted point list -->
@@ -126,7 +140,7 @@
     <h3>To expand your network do the following:</h3>
 
 <!-- Numbered list -->
-    <ol>
+    <ol style="color: rgb(154, 9, 9)">
         <!-- 1st element in the list -->
         <li>
             <b>
