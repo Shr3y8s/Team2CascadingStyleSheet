@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles.css"><!--Mark's comment 7/17: this file doesn't appear to exist.-->
             <title> Quick guide for a future software developer</title>
             <style type="text/css">
 
@@ -28,7 +28,7 @@
                 }
 
                 p.sharedHeader {
-                    color:blue
+                    color:blue /*Mark's comment 7/17: don't forget the ending semicolon! */
                 }
 
                 #myHeader {
@@ -58,7 +58,7 @@
 <body>
 
  <!-- Image information -->
-    <img src="Images/frontend.jpg" alt="Front end" width="600" height="350" title="Front and Back End Computer Science" > <!--Mark's comment 7/9: I'm not marking this down since it's CSS, but if you wanted the center class to make the image centered then in the style block in your head section, you should replace img with .center. Right now ALL images will be centered, not just the ones with the center class.-->
+    <img src="Images/frontend.jpg" alt="Front end" width="600" height="350" title="Front and Back End Computer Science" > <!--Mark's comment 7/17: replace the width and height attributes with a stylesheet!--><!--Mark's comment 7/9: I'm not marking this down since it's CSS, but if you wanted the center class to make the image centered then in the style block in your head section, you should replace img with .center. Right now ALL images will be centered, not just the ones with the center class.-->
 
     <h1 style="text-align:center;"> Computer Science.</h1>
         <p>I will give you short information about career options</p>
@@ -71,7 +71,7 @@
         </p>
 
         <p class="sharedHeader">
-            <strong style="font-size:140%;"><em>Basic skills needed</em></span> </strong>
+            <strong style="font-size:140%;"><em>Basic skills needed</em></span> </strong><!--Mark's comment 7/17: missing an opening <span>-->
         </p>
 
 <!-- Bulleted point list -->
@@ -95,7 +95,7 @@
                      </li>
                  </ul>
 <hr>
-    <h2 id="myHeader"> Back End Development.</h2>
+    <h2 id="myHeader"> Back End Development.</h2> <!--Mark's comment 7/17: ids are unique. You can't have more than one element with the same id. Please rename or switch to class-->
         <p>
             A back end developer are the experts that build and maintain the mechanisms that process data.
             <br>
@@ -177,6 +177,6 @@
     <h4>Note: For more information visit</h4>
 
 <!-- Link to a website -->
-    <a href=https://medium.datadriveninvestor.com/a-back-end-view-of-front-end-web-design-fb89a0a220ae><em>Front End and Back End Development</em></a>
+    <a href=https://medium.datadriveninvestor.com/a-back-end-view-of-front-end-web-design-fb89a0a220ae><em>Front End and Back End Development</em></a><!--Mark's comment 7/17: attribute values should be in doublequotes. (The three big error messages could've been checked by looking at Problems in the debug panel before submitting.)-->
     </body>
 </html>
