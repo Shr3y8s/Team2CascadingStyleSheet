@@ -1,10 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="SylviasStyleSheet.css">
+    <link rel="Sylvia's Style Sheet" href="SylviasStyleSheet.css"
     <title>HTML practice page</title>
-    <!--Practicing adding backgrounds--><!--Mark's comment 7/17: Add an eternal .css stylesheet.-->
+    <!--Practicing adding backgrounds-->
             <style type="text/css">
+                body {
+                background: hsla(320, 72%, 76%, 0.644);
+                background-image: url(https://sylviale101.github.io/Images/annie-spratt-zA7I5BtFbvw-unsplash.jpg);
+                background-attachment: scroll;
+                background-repeat: no-repeat;
+                font-family:Arial, Helvetica, sans-serif;
+                text-align: center;
+            }
+            /* Adding header fonts - this is how a comment can be made*/
+                h1, h2, h3 {
+                 color: black;
+                    font-family: 'Times New Roman', Times, serif;
+                    font-style: italic;
+                    text-align:center;
+                    font-weight: bold; 
+                }
+                /*Centering table*/
+                table, th, td {    
+                border: 1px solid black;  
+                margin-left: auto;  
+                margin-right: auto;  
+                border-collapse: collapse;    
+                width: 500px;  
+                text-align: center;  
+                font-size: 15px;  
+                } 
+                /*Changing id class background color*/
+                #identified {
+                    font-weight: bold;
+                    font-size: large;
+                    font-style: italic;
+                }
+                /*Centering lists*/
+                ul, ol, li{
+                    list-style-position: inside;
+                    text-align: center;
+                }
+                /*Changes colors when a link is hovered*/
+                a:hover {
+                    color:orange;
+                }
             </style>
 </head>
 <body>
@@ -50,32 +91,30 @@
 <!--How to Emphasize Text-->
     <h2>Emphasizing Text</h2>
         <p>
-            Being able to emphasize text is nice. By being able to do so, I can use b to bold important text like <b>this</b> or use <strong>strong</strong> instead.
+            Being able to emphasize text is nice. By being able to do so, I can use b to bold important text like <b>this</b> or use <strong>strong</strong> instead. 
             I could  also create italic text by using an i tag like <i>this</i>
         </p>
 <!--How to create a table-->
 <h2>Creating A Table</h2>
         <p>
-            Creating a table may seem intimidating but you can create a table by
+            Creating a table may seem intimidating but you can create a table by 
             using a td tag (The data cell of a table) or by using the tr tag (the rows in a table)
             <br>
             <p>
                 <b>Here is an example of a table below.</b>
             </p>
-        </p>
+        </p> 
         <!--Creating the body of a table-->
-        <table border="1"><!--Mark's comment 7/17: replace the border and width attributes with a stylesheet.-->
-        <div id="table1">Table 1</div> 
+        <table border="1" width= "500">
             <tbody>
                 <!--Creating rows for a table-->
                 <tr>
                     <!--Setting the width of a data cell to 50% and inserting text-->
-                    <td width="50%">Left side of the table</td><!--Mark's comment 7/17: replace the width attribute with a stylesheet.-->
+                    <td width="50%">Left side of the table</td>
                     <td width= "50%">Right side of the table</td>
-                    <!--Note: replace the width attribute later-->
                 </tr>
                 <tr>
-                    <!--Colspan refers to the number of columns in a table-->
+                    <!--Colspan refers to the number of colomns in a table-->
                     <td colspan="2">
                         <p>
                             This is the top half of the table
@@ -148,19 +187,18 @@
         <!--Go back and insert team page below later when the page is created.-->
         <h1>Team Project Page</h1>
             <p>
-                Here is a link to my Project page: <a href="https://github.com/Sylviale101/Sylviale101.github.io">Github Repository</a>
+                Here is a link to my Project page: <a href="https://github.com/Sylviale101/Sylviale101.github.io">Github Repositoy</a>
             </p>
             <h3>Notes</h3>
             <p>
-                Indentation, consistently saving and commenting while coding is an important habit to have.
-                If I were to unindent/delete comments for my code for the table above then I could've been easily
+                Indentation, consistantly saving and commenting while coding is an important habit to have. 
+                If I were to unindent/delete comments for my code for the table above then I could've been easily 
                 gotten confused while writing my code. I could've also lost some of my code if something were to happen.
             </p>
 <hr>
         <!--Adding an Image-->
             <!--Changed link + changed width-->
-            <div id="image2">Image 2</div>
-                <img src="Images/estee-janssens-8fQ-k_Wd9yU-unsplash.jpg" width ="50%" alt="Studying by Estée Janssens"/><!--Mark's comment 7/17: replace width attribute with a stylesheet. And while you're at it, use relative sizing (e.g., 50%) rather tha hardcoding it to 500 pixels.-->
+                <img src="Images/estee-janssens-8fQ-k_Wd9yU-unsplash.jpg" width ="500" alt="Studying by Estée Janssens"/>
                 <h2>Credits</h2>
                 <!--Credits Section-->
                 <p>
