@@ -1,0 +1,47 @@
+body {
+    background: hsla(320, 72%, 76%, 0.644);
+    background-image: url(https://sylviale101.github.io/Images/annie-spratt-zA7I5BtFbvw-unsplash.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+/* Adding header fonts - this is how a comment can be made*/
+h1, h2, h3 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align:center;
+    font-weight: bold;
+}
+/*Centering table*/
+table, th, td {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 500px;
+    text-align: center;
+    font-size: 15px;
+}
+/*Changing id class background color*/
+#identified {
+    font-weight: bold;
+    font-size: large;
+    font-style: italic;
+}
+/*Centering lists*/
+ul, ol, li{
+    list-style-position: inside;
+    text-align: center;
+}
+/*Changes colors when a link is hovered*/
+a:hover {
+    color:orange;
+}
+#table1 {
+    width: auto;
+}
+#image2 {
+    width: auto;
+}

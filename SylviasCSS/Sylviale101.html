@@ -1,50 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="SylviasStyleSheet.css">
     <title>HTML practice page</title>
     <!--Practicing adding backgrounds--><!--Mark's comment 7/17: Add an eternal .css stylesheet.-->
             <style type="text/css">
-                body {
-                background: hsla(320, 72%, 76%, 0.644);
-                background-image: url(https://sylviale101.github.io/Images/annie-spratt-zA7I5BtFbvw-unsplash.jpg);
-                background-attachment: scroll;
-                background-repeat: no-repeat;
-                font-family:Arial, Helvetica, sans-serif;
-                text-align: center;
-            }
-            /* Adding header fonts - this is how a comment can be made*/
-                h1, h2, h3 {
-                 color: black;
-                    font-family: 'Times New Roman', Times, serif;
-                    font-style: italic;
-                    text-align:center;
-                    font-weight: bold;
-                }
-                /*Centering table*/
-                table, th, td {
-                border: 1px solid black;
-                margin-left: auto;
-                margin-right: auto;
-                border-collapse: collapse;
-                width: 500px;
-                text-align: center;
-                font-size: 15px;
-                }
-                /*Changing id class background color*/
-                #identified {
-                    font-weight: bold;
-                    font-size: large;
-                    font-style: italic;
-                }
-                /*Centering lists*/
-                ul, ol, li{
-                    list-style-position: inside;
-                    text-align: center;
-                }
-                /*Changes colors when a link is hovered*/
-                a:hover {
-                    color:orange;
-                }
             </style>
 </head>
 <body>
@@ -104,13 +64,15 @@
             </p>
         </p>
         <!--Creating the body of a table-->
-        <table border="1" width= "500"><!--Mark's comment 7/17: replace the border and width attributes with a stylesheet.-->
+        <table border="1"><!--Mark's comment 7/17: replace the border and width attributes with a stylesheet.-->
+        <div id="table1">Table 1</div> 
             <tbody>
                 <!--Creating rows for a table-->
                 <tr>
                     <!--Setting the width of a data cell to 50% and inserting text-->
                     <td width="50%">Left side of the table</td><!--Mark's comment 7/17: replace the width attribute with a stylesheet.-->
                     <td width= "50%">Right side of the table</td>
+                    <!--Note: replace the width attribute later-->
                 </tr>
                 <tr>
                     <!--Colspan refers to the number of columns in a table-->
@@ -197,7 +159,8 @@
 <hr>
         <!--Adding an Image-->
             <!--Changed link + changed width-->
-                <img src="Images/estee-janssens-8fQ-k_Wd9yU-unsplash.jpg" width ="500" alt="Studying by Estée Janssens"/><!--Mark's comment 7/17: replace width attribute with a stylesheet. And while you're at it, use relative sizing (e.g., 50%) rather tha hardcoding it to 500 pixels.-->
+            <div id="image2">Image 2</div>
+                <img src="Images/estee-janssens-8fQ-k_Wd9yU-unsplash.jpg" width ="50%" alt="Studying by Estée Janssens"/><!--Mark's comment 7/17: replace width attribute with a stylesheet. And while you're at it, use relative sizing (e.g., 50%) rather tha hardcoding it to 500 pixels.-->
                 <h2>Credits</h2>
                 <!--Credits Section-->
                 <p>
