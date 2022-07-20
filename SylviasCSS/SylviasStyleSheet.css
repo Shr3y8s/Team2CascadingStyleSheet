@@ -15,15 +15,19 @@ h1, h2, h3 {
     font-weight: bold;
 }
 /*Centering table*/
-table, th, td {
-    border: 1px solid black;
+table {
     margin-left: auto;
     margin-right: auto;
     border-collapse: collapse;
-    width: 500px;
+    width: fit-content;
     text-align: center;
-    font-size: 15px;
+    font-size: 15%;
 }
+td {
+    width:"50%";
+    width:"50%";
+}
+
 /*Changing id class background color*/
 #identified {
     font-weight: bold;
