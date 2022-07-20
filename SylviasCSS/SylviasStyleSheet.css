@@ -31,11 +31,13 @@ th {
 td {
     border-bottom: 2px black;
     text-align: center;
+    width: 50%;
 }
 /*Changing id class background color*/
 tr {
     column-span: 2;
     font-size: 40%;
+    width: 50%;
 }
 #identified {
     font-weight: bold;
