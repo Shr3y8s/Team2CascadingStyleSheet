@@ -22,7 +22,7 @@ table {
     width: 50%;
 }
 th {
-    font-size: 40%;
+    font-size: 60%;
     text-align: center;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
@@ -36,7 +36,7 @@ td {
 /*Changing id class background color*/
 tr {
     column-span: 2;
-    font-size: 40%;
+    font-size: 60%;
     width: 50%;
 }
 #identified {
