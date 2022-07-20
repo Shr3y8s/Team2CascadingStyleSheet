@@ -16,7 +16,7 @@ h1, h2, h3 {
 }
 /*Centering table*/
 table {
-    border: 1in black;
+    border: 6in 
     margin-left: auto;
     margin-right: auto;
     border-collapse: collapse;
@@ -27,10 +27,12 @@ table {
 td {
     width:"50%";
     width:"50%";
+    font-size: 40%;
 }
 /*Changing id class background color*/
 tr {
     column-span: 2;
+    font-size: 40%;
 }
 #identified {
     font-weight: bold;
