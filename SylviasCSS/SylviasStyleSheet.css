@@ -43,5 +43,6 @@ a:hover {
     width: auto;
 }
 #image2 {
-    width: 30%;
+    width: fit-content;
+    height: fit-content;
 }
