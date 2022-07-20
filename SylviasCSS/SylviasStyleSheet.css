@@ -22,14 +22,14 @@ table {
     width: 50%;
 }
 th {
-    font-size: medium;
+    font-size: 40%;
     text-align: center;
-    border-bottom: 2px black;
-    border-top: 2px black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
     width: 50%;
 }
 td {
-    border-bottom: 2px black;
+    border-bottom: 2px solid black;
     text-align: center;
     width: 50%;
 }
